@@ -1,0 +1,512 @@
+/* ------- Body ----------------------------------------------------------------- */
+
+body{
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+  margin: 0 0;
+  padding: 0 0;
+  font-family: 'Frank Ruhl Libre', serif;
+  background-color: black !important;
+}
+
+/* ------- Html ------------------------------------------------------------------ */
+
+html{
+  overflow-x: hidden;
+}
+
+/* ------- Horizontal Ruler ------------------------------------------------------- */
+
+.horizontalRuler{
+  width: 5rem;
+  height: .2rem;
+  background-color: #1ebba3;
+  margin: 0 auto 3rem;
+}
+
+/* ------- Navigation Bar -------------------------------------------------------- */
+
+.navbar{
+  background-color: black !important;
+}
+
+.navbar-brand img{
+  height: 60px;
+  width: 200px;
+  margin-left: 10px;
+}
+
+.nav-item{
+  padding: 0 10px;
+  text-transform: uppercase;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+  color: #f7f7f7;
+  padding-top: 0.8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active{
+  color: #1ebba3 ;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+  color: #1ebba3 ;
+}
+
+/* ------- Home Section -------------------------------------------------------- */
+
+#home{
+  background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url("img/1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+  padding: 14rem 2rem;
+}
+
+#home h1{
+  color: white;
+  font-size:3rem;
+  text-transform: uppercase;
+  letter-spacing: .3rem;
+  text-shadow:.1rem .1rem .8rem black;
+}
+
+#home img{
+  border-radius: 50%;
+  border: 2.5px solid #1ebba3;
+  height: 77px;
+  width: 77px;
+}
+
+.btn-lg{
+  border-width: medium;
+  border-radius: 0;
+  padding: .6rem 1.3rem;
+  font-size:1.1rem;
+  font-weight: bold;
+  background-color: #12947f;
+  border-color: #12947f;
+  color: white;
+  border-color: #12947f;
+}
+
+.btn-lg:hover{
+  background-color: #5fdde5;
+  border-color: #5fdde5;
+  color: #222831;
+}
+
+/* ------- Quote 1 Section -------------------------------------------------------- */
+
+#quote1{
+  width: 100%;
+  height: 100%;
+  padding: 5rem 2rem;
+  font-family: 'Caveat', cursive;
+}
+
+#quote1 h3{
+  color: #1ebba3;
+}
+
+#quote1 p{
+  color: white;
+}
+
+/* ------- About Section -------------------------------------------------------- */
+
+#about{
+  background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("img/2.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+  padding: 5rem 1rem;
+  margin-bottom: 6px;
+}
+
+.content img{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 2.5px solid #dbdbdb;
+  margin-bottom: 17px;
+}
+
+.content h1{
+  color: #f0f0f0;
+  text-transform: uppercase;
+}
+
+.bio{
+  font-family: 'Caveat', cursive;
+  color: #43d8c9;
+  font-size: 1.3rem;
+}
+
+/* ------- Quote 2 Section -------------------------------------------------------- */
+
+#quote2{
+  width: 100%;
+  height: 100%;
+  padding: 5rem 2rem;
+  font-family: 'Caveat', cursive;
+}
+
+#quote2 h3{
+  color: #1ebba3;
+}
+
+#quote2 p{
+  color: white;
+}
+
+
+/* ------- Education Section -------------------------------------------------------- */
+
+#education{
+  background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("img/3.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+  padding: 6rem 2rem;
+  margin-bottom: 6px;
+}
+
+#education h1{
+  color: #f0f0f0;
+  text-transform: uppercase;
+}
+
+#education h3{
+  color: #f0f0f0;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+
+i{
+  color: #1ebba3;
+}
+
+#education p{
+  color: #77d8d8;
+  font-family: 'Caveat', cursive;
+  margin-top: 30px;
+  font-size: 1.3rem;
+}
+
+/* ------- Quote 3 Section -------------------------------------------------------- */
+
+#quote3{
+  width: 100%;
+  height: 100%;
+  padding: 5rem 2rem;
+  font-family: 'Caveat', cursive;
+}
+
+#quote3 h3{
+  color: #1ebba3;
+}
+
+#quote3 p{
+  color: white;
+}
+
+/* ------- Skills Section -------------------------------------------------------- */
+
+#skills{
+  background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("img/4.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+  padding: 6rem 2rem;
+  margin-bottom: 6px;
+}
+
+#skills h1{
+  color: #f0f0f0;
+  text-transform: uppercase;
+}
+
+#skills i{
+  margin-top: 40px;
+}
+
+#skills h3{
+  font-family: 'Caveat', cursive;
+  color: #d7fffd;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+
+/* ------- Quote 4 Section -------------------------------------------------------- */
+
+#quote4{
+  width: 100%;
+  height: 100%;
+  padding: 5rem 2rem;
+  font-family: 'Caveat', cursive;
+}
+
+#quote4 h3{
+  color: #1ebba3;
+}
+
+#quote4 p{
+  color: white;
+}
+
+/* ------- Hobbies Section -------------------------------------------------------- */
+
+#hobbies{
+  background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("img/5.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+  padding: 6rem 2rem;
+  margin-bottom: 6px;
+}
+
+#hobbies h1{
+  color: #f0f0f0;
+  text-transform: uppercase;
+}
+#hobbies i{
+  margin-top: 40px;
+}
+
+#hobbies h3{
+  font-family: 'Caveat', cursive;
+  color: #d7fffd;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+/* ------- Quote 5 Section -------------------------------------------------------- */
+
+#quote5{
+  width: 100%;
+  height: 100%;
+  padding: 5rem 2rem;
+  font-family: 'Caveat', cursive;
+}
+
+
+
+#quote5 h3{
+  color: #1ebba3;
+}
+
+#quote5 p{
+  color: white;
+}
+
+/* ------- Details Section -------------------------------------------------------- */
+
+#details{
+  background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("img/6.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+  padding: 6rem 2rem;
+  margin-bottom: 6px;
+}
+
+#details h1{
+  color: #f0f0f0;
+  text-transform: uppercase;
+}
+
+#details h3{
+  color: #f0f0f0;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+
+#details p{
+  color: #77d8d8;
+  font-family: 'Caveat', cursive;
+  margin-top: 30px;
+  font-size: 1.3rem;
+}
+
+/* ------- Footer -------------------------------------------------------- */
+
+footer{
+  padding:2rem 0 2rem;
+  margin-top: 1rem;
+  color: white;
+  font-weight: 400;
+}
+
+footer a{
+  color: white;
+  margin: 1.2rem .5rem 0 0;
+  font-size: 1.6rem;
+}
+
+.hov:hover{
+  color: white !important;
+}
+
+.socket{
+  width: 100%;
+  border-top: .2rem solid #1ebba3;
+  margin-top: 3rem;
+}
+
+.weight{
+  font-weight: normal;
+  font-size: 0.7rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* ------- Media Queries -------------------------------------------------------- */
+
+@media screen and (max-width : 768px){
+
+  /* ---- Home Section ---------------------*/
+
+  #home h1{
+    font-size: 2rem;
+  }
+
+  .btn-lg{
+    font-size: 1rem;
+  }
+
+  /* ---- Quote 1 Section ---------------------*/
+
+  #quote1 h3{
+    font-size: 1.4rem;
+  }
+
+  #quote1 p{
+    font-size: 1.1rem;
+  }
+
+  /* ---- About Section ---------------------*/
+
+  .bio{
+    font-size: 1.16rem;
+    text-align: justify;
+  }
+
+  .content h1{
+    font-size: 2rem;
+  }
+
+  .content img{
+    height: 140px;
+    width: 140px;
+  }
+
+  /* ---- Quote 2 Section ---------------------*/
+
+  #quote2 h3{
+    font-size: 1.4rem;
+  }
+
+  #quote2 p{
+    font-size: 1.1rem;
+  }
+
+  /* ---- Education Section ---------------------*/
+
+  #education h1{
+    font-size: 2rem;
+  }
+
+  #education h3{
+    font-size: 1.5rem;
+  }
+
+  #education p{
+    font-size: 1.1rem;
+  }
+
+  /* ---- Quote 3 Section ---------------------*/
+
+  #quote3 h3{
+    font-size: 1.4rem;
+  }
+
+  #quote3 p{
+    font-size: 1.1rem;
+  }
+
+  /* ---- Technical Skills Section ---------------------*/
+
+  #skills h1{
+    font-size: 2rem;
+  }
+
+  #skills h3{
+    font-size: 1rem;
+  }
+
+  /* ---- Quote 4 Section ---------------------*/
+
+  #quote4 h3{
+    font-size: 1.4rem;
+  }
+
+  #quote4 p{
+    font-size: 1.1rem;
+  }
+
+  /* ---- Hobbies Section ---------------------*/
+
+  #hobbies h1{
+    font-size: 2rem;
+  }
+
+  #hobbies h3{
+    font-size: 1rem;
+  }
+
+  /* ---- Quote 5 Section ---------------------*/
+
+  #quote5 h3{
+    font-size: 1.4rem;
+  }
+
+  #quote5 p{
+    font-size: 1.1rem;
+  }
+
+  /* ---- Details Section ---------------------*/
+
+  #details h1{
+    font-size: 2rem;
+  }
+
+  #details h3{
+    font-size: 1.5rem;
+  }
+
+  #details p{
+    font-size: 1.1rem;
+  }
+
+}
